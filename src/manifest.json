@@ -11,8 +11,7 @@
     "128": "icons/icon_128.png"
   },
   "browser_action": {
-    "default_title": "style-inspect",
-    "default_popup": "popup/popup.html"
+    "default_title": "style-inspect"
   },
   "options_page": "options/options.html",
   "content_scripts": [
