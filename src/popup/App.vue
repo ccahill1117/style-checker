@@ -1,13 +1,22 @@
 <template>
   <div>
-    <p>Hello world!</p>
+    <input type="text" placeholder="hi">
+    <button v-on:click="upNum">make number big</button>
+    <p>{{num}}</p>
   </div>
 </template>
 
 <script>
 export default {
   data () {
-    return {}
+    return {
+      num: 1
+    }
+  },
+  methods: {
+    upNum() {
+      this.num = this.num + 1
+    }
   }
 }
 </script>
